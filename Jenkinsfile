@@ -2,6 +2,9 @@
 
 pipeline {
   agent none
+ tools {
+    jdk 'jdk-17'
+  }
   stages {
     stage('Maven Install') {
       agent {
