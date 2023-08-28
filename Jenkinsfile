@@ -3,7 +3,7 @@
 pipeline {
   agent none
  tools {
-    jdk 'jdk-17'
+    jdk 'jdk-1.8'
   }
   stages {
     stage('Maven Install') {
