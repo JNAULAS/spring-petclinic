@@ -1,9 +1,11 @@
 version: '3.1'
+# Ubicaciones a compartir con el contenedor
 volumes:
   sonarqube_conf: null
   sonarqube_data: null
   sonarqube_extensions: null
   sonarqube_bundled-plugins: null
+# Definimos los servicios a utilizar
 services:
   mysql:
     image: 'mysql:5.7'
